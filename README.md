@@ -59,7 +59,7 @@ The outline of each folder and code is as follows:
     - ***separate_by_sentiment.py***: separates into multiple files by sentiment
     - ***separate_by_user.py***: separates into multiple files by user/non-user
 
-To conduct a similar study to what we've done, the following can be referenced as a general outline
+To conduct a similar study to what we've done, the following can be referenced as a general outline. The filenames should work as is. 
 
 1. **e-cig_flavor.py**
 2. **promo_filter.py**
@@ -67,9 +67,12 @@ To conduct a similar study to what we've done, the following can be referenced a
 4. **pre_sentiment.py**
 5. **roBERTa_training_sentiment.py** + **roBERTa_user_sentiment.py**
 6. **sentiment_roBERTa.py** + **user_roBERTa.py**
-7. **pre_bertopic.py**
-8. **BERTopic.py**
-9. figure-code scripts as necessary
+
+   
+1. **pre_bertopic.py**
+2. **BERTopic.py**
+   
+X. figure-code scripts as necessary
 
 To run each file, you can use the following format from the root directory:
 
