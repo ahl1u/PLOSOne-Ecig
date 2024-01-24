@@ -1,0 +1,19 @@
+import pandas as pd
+
+# Read CSV file into a DataFrame
+df = pd.read_csv('results.csv')
+
+# Convert 'timestamp' column to datetime format
+df['timestamp'] = pd.to_datetime(df['timestamp'], format='%a %b %d %H:%M:%S %z %Y')
+
+# Create a new column to categorize sentiment
+df['sentiment_category'] = df['sentiment_score'].apply(lambda x: 'Positive' if x == 1 else ('Neutral' if x == 0 else 'Negative'))
+
+# Group by week and sentiment category, and count the number of tweets
+weekly_sentiment_counts = df.groupby([pd.Grouper(key='timestamp', freq='2W'), 'sentiment_category']).size().unstack(fill_value=0)
+
+# Save the weekly sentiment counts to a CSV file
+weekly_sentiment_counts.to_csv('sentiment_counts.csv')
+
+# Print a confirmation message
+print("Biweekly sentiment counts saved to 'new_counts.csv'")
