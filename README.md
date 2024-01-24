@@ -24,11 +24,15 @@ This project uses `pyenv` to manage Python versions. To set up `pyenv` and the l
 
    ```sh
    pyenv install 3.9.18
-3. Set Python 3.9.18 as the local version for the project:
+3. Create a virtualenv with Python 3.9.18:
 
     ```sh
-    pyenv local 3.9.18
-4. Install the necessary Python packages using pip:
+    pyenv virtualenv 3.8.18 project
+4. Activate said version:
+
+   ```sh
+   pyenv activate project
+6. Install the necessary Python packages using pip:
     ```sh
     pip install -r requirements.txt
 ## Usage
