@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/747828803.svg)](https://zenodo.org/doi/10.5281/zenodo.10565027)
 # PLOSOne-Ecig
 
 These following files include the code necessary to conudct the research in the "Public perceptions of synthetic cooling agents in electronic cigarettes on Twitter" study.
