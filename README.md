@@ -56,8 +56,12 @@ The outline of each folder and code is as follows:
     - ***sentiment_by_user_significance.py***: checks significance of sentiment across user/non-users
     - ***sentiment_by_user.py***:  generates figures showing sentiment counts by user/non-users
     - ***sentiment_user_counts.py***: provides total amounts of users/non-users and sentiment
+    - ***sentiment_counts_sentiment_proportions***: provides number and proportion of each sentiment
+    - ***sentiment_counter_biweekly***: Counts the number of each sentiment for each biweek
     - ***separate_by_sentiment.py***: separates into multiple files by sentiment
     - ***separate_by_user.py***: separates into multiple files by user/non-user
+    - ***biweekly_unfiltered_tweets_counts.py***: counts total, unfiltered tweets for each biweek
+    - ***biweekly_proportions_unfiltered_vs_filtered_tweets.py***: calculates proportions of unfiltered tweets vs filtered tweets and saves to Excel file
 
 To conduct a similar study to what we've done, the following can be referenced as a general outline. The .json and .csv filenames should work as is. 
 
