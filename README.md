@@ -59,7 +59,7 @@ The outline of each folder and code is as follows:
     - ***separate_by_sentiment.py***: separates into multiple files by sentiment
     - ***separate_by_user.py***: separates into multiple files by user/non-user
 
-To conduct a similar study to what we've done, the following can be referenced as a general outline. The filenames should work as is. 
+To conduct a similar study to what we've done, the following can be referenced as a general outline. The .json and .csv filenames should work as is. 
 
 1. **e-cig_flavor.py**
 2. **promo_filter.py**
