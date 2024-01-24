@@ -40,14 +40,14 @@ The outline of each folder and code is as follows:
     - ***flavor_filter.py***: filters out everything non-synthetic cooling agent related
     - ***pre_bertopic.py***: prepares .csv tweet data for bertopic analysis by removing unecessary columns
     - ***pre_sentiment.py***: prepares .json for sentiment by converting to .csv in acceptable format
-- ## roBERTa_training
+- ### roBERTa_training
     - ***roBERTa_training_sentiment.py***: trains roBERTa model on manually labeled tweets for sentiment
     - ***roBERTa_training_sentiment.py***: trains roBERTa model on manually labeled tweets for user/non-users
-- ## labeling
+- ### labeling
     - ***sentiment_roBERTa.py***: applies sentiment roBERTa model to classify tweets
     - ***user_roBERTa.py***: applies user/non-users roBERTa model to classify tweets
     - ***BERTopic.py***: applies BERTopic model to tweets
-- ## figure_code
+- ### figure_code
     - ***longitudinal_user_proportion.py***: generates figure showing the proportion of users over time.
     - ***sentiment_by_user_significance.py***: checks significance of sentiment across user/non-users
     - ***sentiment_by_user.py***:  generates figures showing sentiment counts by user/non-users
