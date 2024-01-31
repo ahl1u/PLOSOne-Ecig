@@ -27,7 +27,7 @@ This project uses `pyenv` to manage Python versions. To set up `pyenv` and the l
 3. Create a virtualenv with Python 3.9.18:
 
     ```sh
-    pyenv virtualenv 3.8.18 project
+    pyenv virtualenv 3.9.18 project
 4. Activate said version:
 
    ```sh
